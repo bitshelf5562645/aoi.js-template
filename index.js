@@ -1,6 +1,5 @@
 const config = require("./config.json")
 const Aoijs = require("aoi.js")
-const gm = require("gm");
 const bot = new Aoijs.Bot({
     sharding: false,
     shardAmount: 1,
