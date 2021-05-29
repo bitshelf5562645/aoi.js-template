@@ -14,7 +14,7 @@ $addfield[** **;** **;yes]
 $addfield[⚙️| **CPU usage:**;$cpu%.;yes]
 
 $addfield[⚙️| **RAM usage:**;$ram MB.;yes]]
-$color[$getServerVar[color]]
+$color[GREEN]
 $thumbnail[$useravatar[$clientid]]
 `
 });
